@@ -24,8 +24,8 @@ A feature-rich Minecraft launcher with multi-threaded download support, Forge in
 ## Requirements / 需求
 
 - Python 3.7+  
-- Required packages (see requirements.txt)  
-  所需包（见requirements.txt）
+- Required packages (see `pyproject.toml`)  
+  所需包（见`pyproject.toml`）
 
 ## Installation / 安装
 
@@ -37,7 +37,7 @@ A feature-rich Minecraft launcher with multi-threaded download support, Forge in
 2. Install dependencies  
    安装依赖
    ```
-   pip install -r requirements.txt
+   uv init
    ```
 3. Run the launcher  
    运行启动器
@@ -67,7 +67,7 @@ A feature-rich Minecraft launcher with multi-threaded download support, Forge in
 ├── latest.log           # Log file
 ├── pos.txt              # Mouse position log (debug)
 ├── main.py              # Main program
-└── requirements.txt     # Dependency list
+└── pyproject.toml       # Dependency list
 ```
 
 ## Notes / 注意事项
